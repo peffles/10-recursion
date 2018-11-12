@@ -1,46 +1,23 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Recursive Linked List Data Structure
-====
+# Recursion
+***Wyatt Pefley***
+# Build Status: ![travis] (https://travis-ci.com/peffles/10-recursion.svg?branch=master)
+This lab is aimed to help solidify working with recursion.
 
-## To Submit this Assignment
-  * Do all your work in a public repository called `data-structures-and-algorithms`
-  * write all of your code in a directory named `linked-lists`
-  * push to your repository
-  * submit a pull request to this repository
-  * submit a link to your PR in canvas
-  * write a question and observation on canvas
+### Getting started
 
-## Requirements  
-#### Configuration  
-  <!-- list of files, configurations, tools, etc that are required -->
-  Your lab directory must include  
-  * **index.js** -- The entry point to your module
-  * **README.md** -- with a documentation about your lab
-  * **.gitignore** -- with a robust .gitignore
-  * **.eslintrc** -- with the class .eslintrc file
-  * **.eslintignore** -- with the class .eslintignore
-  * **.travis.yml** -- travis-ci instructions
-  * **.package.json** -- with all dependencies and dev-dependencies
-  * **lib/** -- directory for holding your programs helper modules
-  * **__tests__/** -- directory for holding your programs unit and integration tests
+Fork repo
+Clone to local machine
+run the following command to install dependencies:
+```
+npm i
+``` 
 
-#### Testing  
-  * write at least two tests for each method of the Singly Linked List Data Structure
-  * organize your tests into appropriate describe/it blocks for test output readability
+## Testing:
 
-####  Documentation  
-  * in your README, write documentation for you data structures
-  * your documentation should includes code block useage examples
-  * provide instructions for:
-    * installing and using your data structure
-    * accessing each method
-    * running your tests
+To run the tests type the following command:
+```
+npm run test
+```
 
-#### Feature Tasks  
-* implement a Singly Linked List (SLL) data structure
-* implement a recursive `remove(offset)` methods to the SLL class
-  * offset is an integer representing how many nodes to traverse before removal
-	* the head of the linked lists represents offset 0
-* in a comment within each function, note the it's Big-O runtime
-
-#### Stretch Goals
-* implement recursive `append(value)`, `prepend(value)`, `reverse()` methods to the SLL class
+## Built With
+- NodeJS
