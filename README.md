@@ -1,6 +1,7 @@
 # Recursion
 ***Wyatt Pefley***
-# Build Status: https://travis-ci.com/peffles/10-recursion.svg?branch=master
+# Build Status: 
+https://travis-ci.com/peffles/10-recursion.svg?branch=master
 This lab is aimed to help solidify working with recursion.
 
 ### Getting started
